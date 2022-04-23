@@ -6,7 +6,7 @@ const Header = () => {
   const { user } = useMoralis();
 
   return (
-    <div className="backdrop-blur-sm py-3  lg:shadow-sm lg:rounded-md lg:shadow-white border-b-2 border-white sticky top-0 z-[1000]">
+    <div className="bg-black py-3  lg:shadow-sm lg:rounded-md lg:shadow-white border-b-2 border-white sticky top-0 z-[1000]">
       <div className="relative w-48 h-48 mx-auto mb-2  border-4  rounded-full ">
         <Avatar logoutOnPress />
       </div>
