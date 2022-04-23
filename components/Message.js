@@ -20,8 +20,8 @@ const Message = ({ message }) => {
       <div
         className={`flex space-x-4 p-3 rounded-lg ${
           isUserMessage
-            ? "rounded-br-none bg-pink-600"
-            : "rounded-bl-none bg-blue-400"
+            ? "rounded-br-none bg-amber-500"
+            : "rounded-bl-none bg-fuchsia-500"
         } `}
       >
         <p>{message.get("message")}</p>
@@ -36,7 +36,7 @@ const Message = ({ message }) => {
 
       <p
         className={`absolute -bottom-5 text-xs ${
-          isUserMessage ? "text-pink-300" : "text-blue-400"
+          isUserMessage ? "text-amber-400" : "text-fuchsia-400"
         }`}
       >
         {message.get("username")}
